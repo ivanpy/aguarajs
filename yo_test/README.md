@@ -1,8 +1,12 @@
-# Proyecto de ejemplo para aprender Yeoman.io http://yeoman.io/
+# yo-test
 
-Necesitamos tener instalado 
-1. Node.js (https://nodejs.org/en/)
-2. Grunt (http://gruntjs.com/)
-3. Bower (http://bower.io/)
+This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
+version 0.12.1.
 
-ariel duarte copyright 2015
+## Build & development
+
+Run `grunt` for building and `grunt serve` for preview.
+
+## Testing
+
+Running `grunt test` will run the unit tests with karma.
