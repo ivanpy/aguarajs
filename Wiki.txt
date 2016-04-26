@@ -1,0 +1,68 @@
+##Autor :Ariel Duarte
+##Fecha: 25/09/2015
+
+# Proyecto de ejemplo para aprender Yeoman.io http://yeoman.io/
+
+Prerrquisitos: necesitamos tener instalado 
+*Node.js
+*npm
+*git
+Abrir Terminal de Linux o la consola de Windows:
+Para saber si lo tenemos instaldo ejecutamos el siguiente comando en la consola:
+$ node --version && npm --version
+$ git --version
+
+
+0. Instalacion de YOEMA
+
+1. Node.js (https://nodejs.org/en/)
+	Descargar https://nodejs.org/dist/v4.1.1/node-v4.1.1-x64.msi
+2. Grunt (http://gruntjs.com/)
+	Instalación:
+	Abrir Terminal de Linux o la consola de Windows:
+	$ npm install -g grunt-cli
+	
+3. Bower (http://bower.io/)
+	Abrir Terminal de Linux o la consola de Windows:
+	$ npm install -g bower
+
+4. Instalación del Set de herramientas de Yeoman
+	Abrir Terminal de Linux o la consola de Windows:
+	$ npm install --global yo
+	
+	Para saber si tenemos todo lo necesario bien instalado:
+	$ yo --version && bower --version && grunt -version
+	Resultado algo asi:
+	1.4.8
+	1.5.3
+	grunt-cli v0.1.13
+	
+5. Instalacion del generador de Yeoman para Angular (https://www.versioneye.com/nodejs/generator-angular/0.12.1)
+	$ npm install --global generator-angular@0.12.1
+	
+6. Crear proyecto AngularJs
+	Creamos el directorio del proyecto, abrir Terminal de Linux o la consola de Windows:
+	$ mkdir yo_test && cd yo_test
+	
+	Ejecutamos yo para ver los generadores que tenemos disponibles:
+	$ yo
+	
+	Seleccionamos
+	> Angular
+	This generator can also be run with: yo angular
+	> ? Would you like to use Sass (with Compass)? (Y/n) --> le decimos que n
+	> ? Would you like to use Bootstrap ? (Y/n)  --> le decimos Y y enter
+	
+	Despues de varios minutos y si todo termino OK muestra el siequien mensaje
+	> Done, without errors.
+	
+	
+7. Una vez que instala todo el proyecto Angular hacer
+   $ npm install 
+   para poder instalar las demas dependencias de grunt y  bower que estan en la lista de tareas que creo yeoman
+   
+8. Por ultimo para probar nuestra aplicacion corremos el servidor de grunt
+   $ grunt serve
+   Se levanta una pagina de YEOMAN ;)
+   
+	
